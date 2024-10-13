@@ -1,0 +1,31 @@
+{
+  "service": [
+    {
+      "id": 1,
+      "class": "",
+      "treatment": "Medical Diagnosis & Prescription",
+      "price": 15000,
+      "description": "Keeping your heart strong and healthy is crucial to your overall well-being. Our cardiology services are here to help you manage and treat your heart health no matter what you might need.",
+      "icon": "https://i.ibb.co/DpVdYqQ/heart-2.png",
+      "service_img": "https://i.ibb.co/rG0TSwX/01.jpg"
+    },
+    {
+      "id": 2,
+      "class": "animation",
+      "treatment": "Laboratory Tests",
+      "price": 25000,
+      "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
+      "icon": "https://i.ibb.co/nzHc2t7/brain-2.png",
+      "service_img": "https://i.ibb.co/Bn2GG0N/06.jpg"
+    },
+    {
+      "id": 3,
+      "class": "",
+      "treatment": "TeleMedicine & Doctor Consultation",
+      "price": 3000,
+      "description": "What is the stomach? The stomach is a J-shaped organ that digests food. It produces enzymes (substances that create chemical reactions) and acids (digestive juices). This mix of enzymes and digestive juices breaks down food so it can pass to your small intestine. Your stomach is part of the gastrointestinal (GI) tract.",
+      "icon": "https://i.ibb.co/Ks1jsVf/stomach-2.png",
+      "service_img": "https://i.ibb.co/CK7Y2DD/03.jpg"
+    }
+  ]
+}
