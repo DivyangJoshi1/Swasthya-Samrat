@@ -352,7 +352,6 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import swal from "sweetalert";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import useAuth from "../../../Hooks/useAuth";
-import axios from "axios"; // Axios for HTTP requests
 
 const generateRandomAppointmentDate = () => {
   const start = new Date('2024-10-20').getTime();
