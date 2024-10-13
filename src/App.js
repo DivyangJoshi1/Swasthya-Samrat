@@ -15,7 +15,9 @@ import Authprovider from "./Context/Authprovider";
 import Services from "./components/Services/Services";
 import Doctors from "./components/Services/Doctors/Doctors";
 import Appointment from "./components/Services/Appointment/Appointment";
-import ServiceDetails from "./components/Services/ServiceDetails/ServiceDetails";
+import DiagnoseDetails from "./components/Services/ServiceDetails/DiagnoseDetails";
+import LaboratoryDetails from "./components/Services/ServiceDetails/LaboratoryDetails";
+import TelemedicineDetails from "./components/Services/ServiceDetails/Telemedicine";
 import PrivetRoute from "./PrivetRoute/PrivetRoute";
 
 // custom style for this application
@@ -78,9 +80,18 @@ function App() {
               <Route exact path="/services">
                 <Services></Services>
               </Route>
-              <PrivetRoute exact path="/services/details/:servId">
-                <ServiceDetails></ServiceDetails>
-              </PrivetRoute>
+              // <PrivetRoute exact path="/services/details/:servId">
+              //   <ServiceDetails></ServiceDetails>
+              // </PrivetRoute>
+    <PrivetRoute exact path="/services/details/diagnose">
+  <DiagnoseDetails />
+</PrivetRoute>
+<PrivetRoute exact path="/services/details/laboratory">
+  <LaboratoryDetails />
+</PrivetRoute>
+<PrivetRoute exact path="/services/details/telemedicine">
+  <TelemedicineDetails />
+</PrivetRoute>
               <Route path="*">
                 <Notfound></Notfound>
               </Route>
