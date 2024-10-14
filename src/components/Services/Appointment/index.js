@@ -97,8 +97,8 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 // Twilio Account SID and Auth Token
-const accountSid = 'AC84171305011bf1ef9f53cd511610b8cd';
-const authToken = 'dafb6a534ef702a165fcdc431c1f57ef';
+const accountSid = 'AC2e4ab1d3c0341c0adcc63fa27d54a878';
+const authToken = 'd760b5604738ef430e8fed1dc6a252e8';
 const client = require('twilio')(accountSid, authToken);
 
 
@@ -120,7 +120,7 @@ app.post('/confirmation-msg', (req, res) => {
     .create({
       body: body,
       to: to,           // The phone number entered by the user
-      from: '+18643653129'  // Your Twilio number
+      from: '+12028757072'  // Your Twilio number
     })
     .then(message => {
       console.log(`SMS sent successfully. Message SID: ${message.sid}`);
