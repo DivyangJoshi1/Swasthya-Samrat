@@ -35,7 +35,7 @@ const DiagnoseDetails = () => {
         <Box sx={{ mb: 5 }}>
           <iframe
             title="AI Chatbot"
-            src="http://127.0.0.1:5000/"
+            src="https://web-production-f833.up.railway.app/"
             style={{
               width: "100%",
               height: "500px",
