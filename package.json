@@ -14,8 +14,10 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "concurrently": "^9.0.1",
     "date-fns": "^2.30.0",
     "firebase": "^9.23.0",
+    "nodemon": "^3.1.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-google-button": "^0.7.2",
@@ -28,11 +30,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "concurrently \"npm run react-app\" \"npm run nodemon-appointment\"",
+  "react-app": "react-scripts start",
+  "nodemon-appointment": "nodemon src/components/services/appointment/index.js",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
