@@ -98,7 +98,7 @@ const port = process.env.PORT || 5000;
 
 // Twilio Account SID and Auth Token
 const accountSid = 'AC2e4ab1d3c0341c0adcc63fa27d54a878';
-const authToken = 'd760b5604738ef430e8fed1dc6a252e8';
+const authToken = '620b3193f862909a28251f2184347e23';
 const client = require('twilio')(accountSid, authToken);
 
 
