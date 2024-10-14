@@ -34,8 +34,8 @@
   "scripts": {
    "start": "concurrently \"npm run react-app\" \"npm run nodemon-appointment\" \"npm run nodemon-doctor\"",
     "react-app": "react-scripts start",
-    "nodemon-appointment": "nodemon src/components/services/appointment/index.js",
-    "nodemon-doctor": "nodemon src/components/services/doctor/index.js",
+    "nodemon-appointment": "nodemon src/components/Services/Appointment/index.js",
+    "nodemon-doctor": "nodemon src/components/Services/Doctors/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
